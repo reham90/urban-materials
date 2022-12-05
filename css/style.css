@@ -368,6 +368,9 @@ width: 0;
     padding: 0;
     width: unset;
   }
+  .cats-dispaly .cat-li{
+    margin: 0 auto;
+  }
   .cats-dispaly::before {
     display: none;
   }
@@ -416,7 +419,7 @@ width: 0;
     font-size: 14px;
   }
   .btn-div.active .chevron-down::after {
-    content: "";
+    content: "";
   }
   .cats-dispaly .cat-li a {
     text-align: start;
@@ -425,10 +428,7 @@ width: 0;
   .cat-li:hover > .cat-anchor {
     color: var(--main-hover);
   }
-  .cats-dispaly span::before {
-    content: "---";
-    margin-inline-end: 2px;
-  }
+  
    .fixed-nav .header-icons .fixed-search {
     display: block;
   }
