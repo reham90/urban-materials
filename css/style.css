@@ -1,5 +1,5 @@
 body {
-  font-family: "SST-ARABIC" !important;
+  font-family: "SST-ARABIC-ROMAN" !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -235,9 +235,10 @@ header {
 }
 .nav-header li a {
   color: var(--main-color);
-    font-size: 16px;
-    text-transform: capitalize;
-    transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .nav-header li a:hover {
@@ -711,11 +712,11 @@ html[dir="rtl"] .open-search {
 }
 .caption-title {
   font-size: 48px;
-  
   color: #fff;
   margin-bottom: 10px;
   text-align: center;
   text-transform: capitalize;
+  font-weight: 700;
 }
 .caption-pargh {
   font-weight: 500;
@@ -844,6 +845,7 @@ html[dir="rtl"] .open-search {
   font-size: 32px;
   color: var(--main-color);
   margin-bottom: 27px;
+  font-weight: 700;
 }
 .about-us-pargh {
   text-align: center;
@@ -910,12 +912,12 @@ html[dir="rtl"] .open-search {
 }
 .features-head {
   display: flex;
-    font-size: 22px;
-    margin-inline-start: 27px;
-    color: var(--main-color);
+  font-size: 22px;
+  margin-inline-start: 27px;
+  color: var(--main-color);
   text-transform: capitalize;
-
   margin-bottom: 15px;
+  font-weight: bold;
 }
 .features-pargh {
   font-size: 19px;
@@ -950,6 +952,7 @@ html[dir="rtl"] .open-search {
   font-size: 36px;
   color: #fff;
   margin-bottom: 39px;
+  font-weight: bold;
 }
 .services-cont {
   display: grid;
@@ -974,11 +977,12 @@ html[dir="rtl"] .open-search {
 }
 .services-span{
  margin-top: 22px;
-  width: 100%;
-  z-index: 5;
+ width: 100%;
+ z-index: 5;
  color: #fff;
  display: block;
-  text-align: center;
+ text-align: center;
+ font-weight: 500;
 }
 .services-img {
   display: -webkit-box;
@@ -1057,6 +1061,7 @@ html[dir="rtl"] .open-search {
   text-transform: capitalize;
   margin:20px 0;
   text-align: start;
+  font-weight: bold;
 }
 .rec-1 span{
   font-size: 20px;
@@ -1148,6 +1153,7 @@ footer {
   color: #fff;
   margin-bottom: 30px;
   text-align: start;
+  font-weight: bold;
 }
 @media (min-width: 991px) {
   .nav-wrap {
