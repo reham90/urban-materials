@@ -15,8 +15,8 @@
 }
 
 @font-face {
-    font-family: "sst_arabicmedium";
-    src: url("../webfonts/sst-arabic/sst-arabic-medium-webfont.woff2") format("woff2"), url("../webfonts/sst-arabic/sst-arabic-medium-webfont.woff") format("woff"), url("../webfonts/sst-arabic/SST-ARABIC-MEDIUM.TTF") format("truetype");
+    font-family: "SST-ARABIC-MEDIUM";
+    src: url("../webfonts/sst-arabic/SST-ARABIC-MEDIUM.woff") format("woff"), url("../webfonts/sst-arabic/SST-ARABIC-MEDIUM.woff2") format("woff2"), url("../webfonts/sst-arabic/SST-ARABIC-MEDIUM.TTF") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
