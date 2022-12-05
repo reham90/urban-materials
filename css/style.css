@@ -1,5 +1,5 @@
 body {
-  font-family: "SST-ARABIC", sans-serif;
+  font-family: "SST-ARABIC" !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
