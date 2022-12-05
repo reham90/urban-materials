@@ -1039,14 +1039,40 @@ html[dir="rtl"] .open-search {
     bottom: 20px;
   }
   .services-cont {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .services-box{
+    margin-bottom: 25px;
+  }
+  .fot-logo-2{
+    position: absolute;
+    left: 29%;
+    bottom: 88px;
+  }
+  html[dir="ltr"] .fot-logo-2{
+    right: 29%;
+  
+    left: 55%;
+
+  }
+
+  .fot-logo-1{
+    display: flex;
+    width: 55%;
+  }
+ 
 }
 /*                      services-section                      */
 /*                              project-section                    */
 .project-section {
  padding: 109px 0 104px;
+}
+.fot-logo-2 img{
+  width: 63px;
+}
+.fot-logo-1 img{
+  width: 50px;
 }
 .projects-record{
   display: grid;
