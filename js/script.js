@@ -35,11 +35,7 @@ $(document).ready(function () {
     });
   
   
-  $(".lang-word").click(function (e) {
-    e.preventDefault();
-    var item = $(this).siblings(".dropdown-content");
-    item.slideToggle(400);
-  });
+ 
    //slide down menu
    $(".btn-div").click(function (e) {
     e.preventDefault();
