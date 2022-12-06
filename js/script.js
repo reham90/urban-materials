@@ -24,19 +24,16 @@ $(document).ready(function () {
       $("body").removeClass("overflow");
     });
   
-      // Add Active Class
-      $(".search-icon").click(function(e) {
-e.preventDefault();
-          $(".search-screen").addClass("active");
-      });
+     ///// search in mobile /////////
+     $(".fixed-search").click(function (e) {
+      e.preventDefault();
+      $(".overlay-box").fadeToggle(300);
+      $(".search-section").toggleClass("search-open");
+      $(".fixed-search .open-search").toggleClass("close-search");
+      $("body").toggleClass("overflow");
+    
+    });
   
-      // Remove Active Class
-      $(".close-icon").click(function(el) {
-        el.preventDefault();
-          $(".search-screen").removeClass("active");
-
-     
-  });
   
   $(".lang-word").click(function (e) {
     e.preventDefault();
@@ -52,7 +49,7 @@ e.preventDefault();
       $(this).toggleClass("active");
       $(".btn-div").not(this).removeClass("active");
     }
-  });
+  });}
 
   //fixed nav
   $stickyNav = $(".top-header");
@@ -153,6 +150,6 @@ e.preventDefault();
       ? $(".arrow-top").fadeIn(300)
       : $(".arrow-top").fadeOut(300);
   });
-}});
+});
 /////////////////////////////////////////////////////// search in mobile //////////////////////
 
