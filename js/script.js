@@ -23,7 +23,21 @@ $(document).ready(function () {
       $(".menu-bars .bars").toggleClass("close-bars");
       $("body").removeClass("overflow");
     });
-  }
+  
+      // Add Active Class
+      $(".search-icon").click(function(e) {
+e.preventDefault();
+          $(".search-screen").addClass("active");
+      });
+  
+      // Remove Active Class
+      $(".close-icon").click(function(el) {
+        el.preventDefault();
+          $(".search-screen").removeClass("active");
+
+     
+  });
+  
   $(".lang-word").click(function (e) {
     e.preventDefault();
     var item = $(this).siblings(".dropdown-content");
@@ -139,6 +153,6 @@ $(document).ready(function () {
       ? $(".arrow-top").fadeIn(300)
       : $(".arrow-top").fadeOut(300);
   });
-});
+}});
 /////////////////////////////////////////////////////// search in mobile //////////////////////
 
